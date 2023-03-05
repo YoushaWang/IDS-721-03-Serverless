@@ -18,7 +18,7 @@ source "$HOME/.cargo/env"
 ```
 3. create project
 ```
-cargo new src
+cargo new proj
 ```
 add following to depandent 
 ```
