@@ -53,14 +53,11 @@ cargo shuttle deploy
 <img width="500" alt="shuttle_install" src="img/install.jpg">
 
 ## Deploy locally
-use 
-```
-cargo run
-```
-<img width="500" alt="Project" src="img/proj.jpg">
+
 use the command to run 
+
 ```
-cargo shuttle run
+cargo shuttle run   
 ```
 <img width="500" alt="Project" src="img/runlocal.jpg">
 This is main page, shows the title of the project.
