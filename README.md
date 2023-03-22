@@ -1,9 +1,9 @@
 # IDS-721-03-Data
 
 ## Intro
-In the project, we are going to use a major Big Data system to perform a Data related task, 
-and applied our system on AWS Athena, AWS Spark/EMR, AWS Sagemaker, Databricks, Snowflake.
-In this project, I used Rust to calculate average year experience a job need. 
+In this project, we are going to deploy a serverless data enginneering pipelines using Rust. 
+In this project, I used Rust to calculate average year experience a job need from a cvs file.
+Shuttle.rs can simplyfy the deployment process of Rust applications to AWS Lambda by uploading the file of shuttle pipeline.
 
 ## Set Up
 1. set virtual enviroment
@@ -88,6 +88,11 @@ For my code, my service is: https://myrust.shuttleapp.rs
 <img width="500" alt="shuttle" src="img/cfo+rs.jpg">
 <img width="500" alt="shuttle" src="img/junior+rs.jpg">
 <img width="500" alt="shuttle" src="img/vice+rs.jpg">
+4. upload file to aws lambda
+I connect my codespace with aws, then upload the file to lambda, and we can also test our project on AWS lamdba.
+<img width="500" alt="shuttle" src="img/function.jpg">
+<img width="500" alt="shuttle" src="img/funcoverview.jpg">
+<img width="500" alt="shuttle" src="img/lambda.jpg">
 
 ## Reference
 https://grpc.io/docs/protoc-installation/
