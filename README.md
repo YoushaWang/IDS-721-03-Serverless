@@ -81,7 +81,7 @@ cargo shuttle deploy --allow-dirty
 2. service is available at {crate_name}.shuttleapp.rs. 
 For my code, my service is: https://myrust.shuttleapp.rs
 <img width="500" alt="shuttle" src="img/s2.jpg">
-<img width="500" alt="shuttle" src="img/s3.jpg">
+
 3. run the service
 <img width="500" alt="shuttle" src="img/main+rs.jpg">
 <img width="500" alt="shuttle" src="img/ceo+rs.jpg">
