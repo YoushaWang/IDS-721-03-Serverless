@@ -30,7 +30,7 @@ make format
 make lint
 ```
 5. cargo shuttle
-install: run the command to install shuttle
+install: run the command to install shuttle, when install the shuttle, we may need to install the "3.15.8" version of protoc and "0.12.0" version of cargo-shuttle
 ```
 cargo install cargo-shuttle
 ```
@@ -50,6 +50,11 @@ deploy: run the command to deploy the project
 ```
 cargo shuttle deploy
 ```
+If the code is existed, use the following code to new a project
+```
+cargo shuttle project new
+```
+
 <img width="500" alt="shuttle_install" src="img/install.jpg">
 
 ## Deploy locally
@@ -76,12 +81,8 @@ cargo shuttle deploy --allow-dirty
 2. service is available at {crate_name}.shuttleapp.rs. 
 <img width="500" alt="shuttle" src="img/s2.jpg">
 3. run the service
-```
 
-```
 <img width="500" alt="shuttle" src="img/s3.jpg">
 
-
-
-## Requirements
-<img width="500" alt="requirement" src="img/req.jpg">
+## Reference
+https://grpc.io/docs/protoc-installation/
