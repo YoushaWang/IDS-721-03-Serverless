@@ -1,4 +1,4 @@
-# IDS-721-03-Data
+# IDS-721-03-Serverless
 
 ## Intro
 In this project, we are going to deploy a serverless data enginneering pipelines using Rust. 
